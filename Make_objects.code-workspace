@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"twxs.cmake",
+			"eamodio.gitlens",
+			"mhutchie.git-graph",
+			"donjayamanne.githistory",
+			"seunlanlege.action-buttons",
+			"vscode-icons-team.vscode-icons",
+			"webfreak.debug"
+		]
+	}, 
+	"settings": {
+		"actionButtons": {
+			"defaultColor": "#ff0034",
+			"commands": [
+				{
+					"name": "Make Clean",
+					"color": "Yellow",
+					"command": "make clean"
+				},
+				{
+					"name": "Make All",
+					"color": "Lime",
+					"command": "make all -j4"
+				}
+			]
+		},
+		"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+		"workbench.iconTheme": "vscode-icons"
+	}
+}
